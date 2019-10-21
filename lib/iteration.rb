@@ -27,7 +27,7 @@ def find_greater_pair(src)
   src.each do |arr| 
     new_array.push(arr[0] > arr[1] ? arr[0] : arr[1]) 
     end
-  new_array
+  return new_array
 end
 new_array
 def total_even_pairs(src)
