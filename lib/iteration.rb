@@ -38,10 +38,10 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
-   new_array = []
+   total = 0
   src.each do |arr| 
-    new_array.push(arr[0] > arr[1] ? arr[0] : arr[1]) 
+   total = total + (arr[0].even? && arr[1].even? ? arr[0] + arr[1] : arr[1]) 
     end
-  return new_array
+  return total
   
 end
