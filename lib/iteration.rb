@@ -1,11 +1,12 @@
-require "pry"
+
 def join_ingredients(src)
   
   new_array = []
   src.each do |el| 
-    new_array << "I love #{}"
-    binding.pry
+    new_array << "I love #{el[0]} and #{el[1]} on my pizza"
+
     end
+    new_array
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
   # Build a new Array that contains strings where each pair of foods is
