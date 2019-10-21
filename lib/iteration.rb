@@ -22,10 +22,10 @@ def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
-  binding.pry
+  
   new_array = []
-  new_array << 
-  src.each do |greater|
+  src.each do |arr| 
+    new_array.push() 
     end
   
 end
