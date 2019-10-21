@@ -1,4 +1,4 @@
-require binding.pry
+
 def join_ingredients(src)
   
   new_array = []
