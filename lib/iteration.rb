@@ -40,7 +40,7 @@ def total_even_pairs(src)
   # this!
    total = 0
   src.each do |arr| 
-   total = total + (arr[0].even? && arr[1].even? ? arr[0] + arr[1] : arr[1]) 
+   total = total + (arr[0].even? && arr[1].even? ? arr[0] + arr[1] : 0) 
     end
   return total
   
