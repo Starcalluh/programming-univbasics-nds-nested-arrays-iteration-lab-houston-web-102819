@@ -25,7 +25,7 @@ def find_greater_pair(src)
   
   new_array = []
   src.each do |arr| 
-    new_array.push() 
+    new_array.push(arr[0] ) 
     end
   
 end
