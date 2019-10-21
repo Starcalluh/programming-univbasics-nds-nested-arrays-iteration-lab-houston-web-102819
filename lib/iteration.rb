@@ -1,4 +1,4 @@
-
+require binding.pry
 def join_ingredients(src)
   
   new_array = []
@@ -22,9 +22,11 @@ def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
+  pry
   new_array = []
   new_array << 
-  src.each do | | end
+  src.each do |greater|
+    end
   
 end
 new_array
